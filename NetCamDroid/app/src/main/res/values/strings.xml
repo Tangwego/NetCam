@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">局域网监控</string>
+    <string name="monitor_start">开启</string>
+    <string name="monitor_stop">关闭</string>
+</resources>
