@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <EditText
+        android:layout_weight="7"
+        android:id="@+id/server_addr"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/please_input_server_addr"
+        android:text="192.168.10.90"
+        />
+
+    <EditText
+        android:layout_weight="3"
+        android:id="@+id/server_port"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/please_input_server_port"
+        android:text="8080"
+        />
+
+</LinearLayout>
